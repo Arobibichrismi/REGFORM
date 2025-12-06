@@ -1,0 +1,28 @@
+/* Keep these for standard reset and font setup */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Remove background-color here */
+  /* background-color: #242424; */ 
+
+  /* Keep the color definition, or remove if Bootstrap handles it */
+  color: #213547; /* Setting a light text color */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  /* 🛑 REMOVE 'display: flex;' and 'place-items: center;' */
+  min-width: 320px;
+  min-height: 100vh;
+  /* Optional: Set a clean background for the entire page */
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Keep the rest of your styles for links, buttons, etc. */
+/* ... (a, a:hover, h1, button, media query) ... */
